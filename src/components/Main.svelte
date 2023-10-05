@@ -27,17 +27,22 @@
       metric: "10x",
       name: "a self taught developer",
       description:
-        "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+        "My coding journey commenced with a strong foundation in Java, a programming language renowned for its robustness and versatility. Subsequently, I delved into the dynamic realm of web development, immersing myself in the intricacies of JavaScript, HTML, and CSS. My dedication to this craft led me to explore a wide spectrum of skills, encompassing JavaScript frameworks, backend programming, design principles, as well as the integration of cloud services, and a myriad of other advanced concepts.",
     },
     {
-      name: "a product design & UX finatic",
+      name: "expanding horizons",
       description:
-        "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+        "Beyond the confines of coding, I am an avid learner. My dedication to improving my vocabulary goes hand in hand with my quest for coding mastery. In the ever-evolving world of technology, communication skills are paramount, and I believe in achieving eloquence both in code and in words.",
     },
     {
-      name: "an excellent communicator",
+      name: "my professional aspirations:",
       description:
-        "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+        "My dedication extends beyond skill refinement. I am actively seeking opportunities in the fields of Full Stack and Backend Development, aspiring to contribute my expertise and creativity to innovative projects.",
+    },
+    {
+      name: "a touch of humor",
+      description:
+        "While I'm deeply immersed in the world of technology, I also embrace the lighter side of life. Memes, with their witty humor, are a delightful part of my daily routine. They serve as a reminder that even in the most serious of endeavors, a touch of humor can go a long way.",
     },
   ];
 </script>
@@ -114,33 +119,32 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Smoames Store is a a merchanising store created with <strong
+          CeleriHire is a meticulously crafted, user-centric software solution
+          engineered with precision and created with <strong
             class="text-violet-400"
-            >Next.js, Commerce.js, Stripe & Node.js + JavaScript!</strong
-          > Commerce.js is a product CMS and Stripe is used for all transaction handling.
+            >React.js, Spring Boot, MySQL & Bootstrap + Postman</strong
+          >. We Prioritized user experience (UX) principles for an intuitive and
+          aesthetically pleasing interface.
         </p>
       </Step>
       <Step step={steps[1]}>
         <p>
-          Ultimate Todos is a Full Stack <strong class="text-violet-400"
-            >Next.js</strong
-          >,
-          <strong class="text-violet-400">Node.js + JavaScript</strong>
-          & <strong class="text-violet-400">Firebase</strong> CRUD application that
-          allows a user to login, manage a tidy and efficacious todo list, and persist
-          this information across devices.
+          Developed the application using the
+          <!-- <strong class="text-violet-400">Next.js</strong>, -->
+          <strong class="text-violet-400">Golang</strong>
+          <!-- & <strong class="text-violet-400">Firebase</strong>  -->
+          renowned for its efficiency and robustness in software engineering.
         </p>
       </Step>
       <Step step={steps[2]}>
         <p>
-          The Pokédex is a <strong class="text-violet-400"
-            >SvelteKit & TailwindCSS</strong
+          Construct the website utilizing the <strong class="text-violet-400"
+            >Bootstrap Framework</strong
           >
-          web application, hosted on
-          <strong class="text-violet-400">Netlify</strong>, that consumes and
-          caches the
-          <strong class="text-violet-400">Pokémon API</strong>
-          to display all Pokémon information. Gotta catch them all!
+          ,renowned for its exceptional capabilities in facilitating responsive and
+          visually appealing web development, crafted using a blend of
+          <strong class="text-violet-400"> HTML, CSS and JavaScript</strong>.
+          <!-- <strong class="text-violet-400">Pokémon API</strong> -->
         </p>
       </Step>
     </div>
@@ -235,7 +239,7 @@
           <tr>
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-              >Interpersonal Skills</td
+              > Adaptability</td
             >
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
@@ -245,9 +249,19 @@
           <tr class="border-t border-solid border-slate-200">
             <td
               class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-              >Progamming Ability</td
+              >Coding Practices</td
             >
             <td><i class="fa-solid fa-check text-slate-500" /></td>
+            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+            <td><i class="fa-solid fa-check text-slate-500" /></td>
+            <td><i class="fa-solid fa-check text-green-500" /></td>
+          </tr>
+          <tr class="border-t border-solid border-slate-200">
+            <td
+              class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+              >Problem Solving</td
+            >
+            <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-xmark text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-slate-500" /></td>
             <td><i class="fa-solid fa-check text-green-500" /></td>
