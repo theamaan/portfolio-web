@@ -57,7 +57,7 @@
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
         My <span class="text-violet-400"> favorite tech</span> includes Java, Spring
-        Boot (React.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
+        Boot (React.JS or SvelteKit), TailwindCSS, Node.js + JavaScript & PostgreSQL
         or MySQL!
       </p>
       <button
@@ -116,7 +116,7 @@
         <p>
           Smoames Store is a a merchanising store created with <strong
             class="text-violet-400"
-            >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
+            >Next.js, Commerce.js, Stripe & Node.js + JavaScript!</strong
           > Commerce.js is a product CMS and Stripe is used for all transaction handling.
         </p>
       </Step>
@@ -125,7 +125,7 @@
           Ultimate Todos is a Full Stack <strong class="text-violet-400"
             >Next.js</strong
           >,
-          <strong class="text-violet-400">Node.js + Express.js</strong>
+          <strong class="text-violet-400">Node.js + JavaScript</strong>
           & <strong class="text-violet-400">Firebase</strong> CRUD application that
           allows a user to login, manage a tidy and efficacious todo list, and persist
           this information across devices.
