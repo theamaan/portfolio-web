@@ -43,7 +43,10 @@
       <div
         class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
       />
-      <h4 class="relative z-9">Get in touch</h4>
+      <!-- <h4 class="relative z-9">Get in touch</h4> -->
+      <a href="https://twitter.com/theamaan13" class="relative z-9"
+        ><h4>Get in touch</h4></a
+      >
     </button>
   </div>
 </header>
